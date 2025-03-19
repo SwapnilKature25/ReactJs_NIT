@@ -1,0 +1,50 @@
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    background: linear-gradient(135deg, #000101, #bcaf7d, #d89802);
+  }
+
+  .container {
+    display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   justify-content: space-evenly;
+}
+
+
+.card{
+    width: 400px;
+    /* box-shadow: 1px 1px 5px tomato; */
+    /* border: 1px solid  white; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    background-image: url('./assets/solo.jpg'); /* Path from public folder */
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #000;
+    border-radius: 8px;
+  }
+
+  .card-body{
+    width: 100%;
+    align-items: center;
+}
+
+.card:hover{
+    transition: 0.2s;
+    translate: 0 5px;
+    box-shadow: 4px 4px 8px  rgb(161, 56, 56);
+}
